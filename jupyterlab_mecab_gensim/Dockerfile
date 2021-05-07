@@ -11,7 +11,8 @@ RUN apt-get install -y mecab libmecab-dev mecab-ipadic mecab-ipadic-utf8 file
 RUN git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git
 RUN mecab-ipadic-neologd/bin/install-mecab-ipadic-neologd -n -y
 RUN pip install mecab-python3
-RUN cp /etc/mecabrc /usr/local/etc/do
+RUN cp /etc/mecabrc /usr/local/etc/
 
 # Word2vec(gensim)
+# RUN pip install gensim #latest
 RUN pip install gensim==3.8.3
