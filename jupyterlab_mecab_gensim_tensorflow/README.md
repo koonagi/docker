@@ -3,7 +3,7 @@
 * 言語: Python3
 * 作業環境: Jupyter Lab
 * 機械学習
-  * 形態素解析: Mecab
+  * 形態素解析: Mecab(with mecab-ipadic-NEologd)
   * Word2Vec: gensim
   * 可視化: TensorBoard
 
