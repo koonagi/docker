@@ -19,4 +19,4 @@ RUN cp /etc/mecabrc /usr/local/etc/
 RUN pip install gensim==3.8.3
 
 # TensorFlow
-RUN pip install torch tensorboardX tensorflow
+RUN pip install torch tensorboardX tensorflow tensorflow_hub tensorflow_text
