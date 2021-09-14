@@ -9,6 +9,7 @@ RUN apt-get -y dist-upgrade
 # MeCab + mecab-ipadic-NEologd (/usr/lib/x86_64-linux-gnu/mecab/dic/mecab-ipadic-neologd)
 RUN apt-get install -y mecab libmecab-dev mecab-ipadic mecab-ipadic-utf8 file
 RUN git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git
+RUN apt install -y --reinstall build-essential
 RUN mecab-ipadic-neologd/bin/install-mecab-ipadic-neologd -n -y
 RUN pip install mecab-python3
 RUN cp /etc/mecabrc /usr/local/etc/
