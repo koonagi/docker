@@ -1,4 +1,4 @@
-サイト: (Dockerを利用して、React実行環境を簡単に構築する)[https://www.cloudnotes.tech/entry/react_docker]
+サイト: [Dockerを利用して、React実行環境を簡単に構築する](https://www.cloudnotes.tech/entry/react_docker)
 
 ■ Docker Images作成
 
